@@ -80,6 +80,10 @@ var groundTruth = ee.FeatureCollection([
 // Add ground truth data to the map
 Map.addLayer(groundTruth, {color: 'blue'}, 'Ground Truth');
 ```
+## Results
+
+Bugesera District -  Kamabuye Sector: ![image](https://github.com/user-attachments/assets/7990167b-e531-4248-a1b9-f0e69faacb1d)
+
 
 ## Summary
 This script processes Sentinel-2 imagery over a specific region of interest to visualize land cover. It includes a cloud masking function, applies appropriate filters to the imagery, and overlays ground truth data for comparison. The results are displayed on the map with different layers representing the land cover and the region boundaries, along with ground truth data for validation.
