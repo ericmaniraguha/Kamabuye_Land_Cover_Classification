@@ -93,6 +93,8 @@ For agricultural monitoring, the best band combination is **B6 (Red Edge 2), B5 
 
 This combination provides enhanced sensitivity to vegetation health, making it ideal for agricultural applications.
 
+![image](https://github.com/user-attachments/assets/8bf89080-a6a4-42f7-83f1-fad61fb379ff)
+
 ### Resources
 
 For more information on band combinations and their applications, refer to the following resources:
