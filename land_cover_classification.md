@@ -95,6 +95,8 @@ This combination provides enhanced sensitivity to vegetation health, making it i
 
 ![image](https://github.com/user-attachments/assets/8bf89080-a6a4-42f7-83f1-fad61fb379ff)
 
+
+
 ### Resources
 
 For more information on band combinations and their applications, refer to the following resources:
