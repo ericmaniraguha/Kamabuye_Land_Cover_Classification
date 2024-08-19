@@ -90,3 +90,7 @@ chart.setOptions({
 });
 print(chart);
 ```
+
+## Results
+![ee-chart (1)](https://github.com/user-attachments/assets/2b940561-1e6d-443d-b8c8-56360fe78063)
+
