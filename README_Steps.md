@@ -1,4 +1,38 @@
-# Land Cover Analysis using Sentinel-2 Imagery
+# Land Cover Classification in Kamabuye Sector - Analysis using Sentinel-2 Imagery
+
+## Steps
+
+1. **Select the Region of Interest (ROI)**
+   - Define the geographic boundaries of the Kamabuye Sector as the area of interest.
+
+2. **Choosing and Filtering the Image Collection**
+   - Select the Sentinel-2 image collection.
+   - Apply filters to the collection based on cloud cover percentage and the desired date range (e.g., 2021-01-01 to 2023-12-31).
+
+3. **Collecting the Training Points**
+   - Identify and collect ground truth points for different land cover classes (e.g., buildings, marshland, vegetation).
+
+4. **Merging Training Points**
+   - Combine the collected training points into a single dataset that includes all the land cover classes.
+
+5. **Create the Training Dataset by Sampling Regions**
+   - Sample the image collection using the training points to create a training dataset that associates spectral information with the land cover classes.
+
+6. **Create the Classifier and Classify the Image**
+   - Train a classification model (e.g., Random Forest) using the training dataset.
+   - Apply the trained classifier to the image collection to generate a classified image.
+
+7. **Create the Classified Image**
+   - Generate a new image where each pixel is labeled according to the predicted land cover class.
+
+8. **Display the Result**
+   - Visualize the classified image to assess the classification visually.
+
+9. **Print Confusion Matrix for Accuracy Assessment**
+   - Generate a confusion matrix by comparing the classified image against a validation dataset to evaluate the model's accuracy.
+
+10. **Calculate Area for Each Class**
+    - Compute the area covered by each land cover class within the ROI.
 
 ## Define the Region of Interest (ROI)
 
