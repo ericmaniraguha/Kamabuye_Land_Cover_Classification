@@ -95,7 +95,25 @@ This combination provides enhanced sensitivity to vegetation health, making it i
 
 ![image](https://github.com/user-attachments/assets/8bf89080-a6a4-42f7-83f1-fad61fb379ff)
 
+### 4. Selecting Vegetation (General)
 
+We also use the band combination of **B11, B8, and B2** to identify and analyze vegetation in general. This combination enhances the contrast between vegetation and non-vegetation areas.
+
+- **Band B11 (Shortwave Infrared - SWIR 1, 1610 nm)**
+- **Band B8 (Near-Infrared - NIR, 842 nm)**
+- **Band B2 (Blue, 490 nm)**
+
+In this band combination, the areas with dark green color on the field represent vegetation.
+
+![vegetation-identification ](https://github.com/user-attachments/assets/ac7fb552-ee4c-41dd-8812-ff465cd2afae)
+![vegetation-conf-geometry](https://github.com/user-attachments/assets/6b3a6a2e-2747-4e14-b9c1-dc9b0c278aad)
+
+This combination is commonly used to calculate the Normalized Difference Vegetation Index (NDVI) and other vegetation indices.
+
+## Results
+![vegetation-results](https://github.com/user-attachments/assets/f1682e61-fdb7-4306-8c83-1112ab74bcc1)
+
+This combination provides enhanced sensitivity to vegetation health, making it ideal for agricultural applications.
 
 ### Resources
 
